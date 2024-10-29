@@ -1,0 +1,101 @@
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700");
+
+/* Importing component files */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+
+/* General style rules for fonts and colors */
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  margin: 0px;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1200px;       
+  padding: 0 1rem;         
+  margin: 0 auto;         
+  display: flex;           
+  flex-direction: column;  
+  align-items: center;     
+  justify-content: center; 
+  min-height: 100vh;       
+  box-sizing: border-box;  
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-basis: 250px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.card h3 {
+    padding-left: 20px;
+    margin: 0;
+}
+h2 {
+    text-align: center; /* Centrer le titre */
+    margin: 20px 0; /* Espacement vertical */
+    font-size: 24px; /* Taille de police */
+    color: #333; /* Couleur du texte */
+}
+.startup-name {
+    font-size: 48px; /* Grande taille pour le nom */
+    color: #0056b3; /* Bleu profond */
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 24px; 
+    color: #333; 
+    text-align: center;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px; 
+    color: #555; 
+    text-align: center;
+    margin: 15px 0;
+}
+
+.btn-blue {
+    display: inline-block;              
+    padding: 10px 20px;               
+    background-color: #28a745; 
+    color: white;                   
+    text-align: center;                  
+    text-decoration: none;              
+    border-radius: 5px;                
+    border: none;                       
+    font-size: 16px;                    
+    cursor: pointer;                    
+    transition: background-color 0.3s; 
+}
+
+.btn-blue:hover {
+    background-color: #218838; 
+}
